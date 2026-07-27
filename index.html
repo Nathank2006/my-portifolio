@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kalema Nathan | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#0f172a;
+color:white;
+}
+
+header{
+position:fixed;
+width:100%;
+background:#0f172ae8;
+backdrop-filter:blur(10px);
+padding:18px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+z-index:999;
+}
+
+.logo{
+font-size:28px;
+font-weight:700;
+color:#38bdf8;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+transition:.3s;
+}
+
+nav a:hover{
+color:#38bdf8;
+}
+
+section{
+padding:100px 8%;
+}
+
+.hero{
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:space-between;
+flex-wrap:wrap;
+}
+
+.hero-text{
+max-width:600px;
+}
+
+.hero h3{
+font-size:24px;
+font-weight:400;
+}
+
+.hero h1{
+font-size:58px;
+margin:10px 0;
+}
+
+.hero span{
+color:#38bdf8;
+}
+
+.hero p{
+margin:20px 0;
+line-height:1.7;
+color:#ddd;
+}
+
+.btn{
+display:inline-block;
+padding:14px 35px;
+background:#38bdf8;
+color:#fff;
+border-radius:30px;
+text-decoration:none;
+font-weight:600;
+transition:.3s;
+}
+
+.btn:hover{
+transform:translateY(-5px);
+box-shadow:0 10px 25px #38bdf8;
+}
+
+.hero-image img{
+width:380px;
+border-radius:50%;
+border:6px solid #38bdf8;
+}
+
+.title{
+text-align:center;
+font-size:40px;
+margin-bottom:50px;
+color:#38bdf8;
+}
+
+.about p{
+max-width:900px;
+margin:auto;
+text-align:center;
+line-height:1.8;
+color:#ddd;
+}
+
+.skills-grid,
+.service-grid,
+.project-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:#1e293b;
+padding:30px;
+border-radius:15px;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+background:#334155;
+}
+
+.card h3{
+margin-bottom:15px;
+color:#38bdf8;
+}
+
+.timeline{
+max-width:800px;
+margin:auto;
+}
+
+.timeline .card{
+margin-bottom:25px;
+}
+
+.contact{
+text-align:center;
+}
+
+.contact p{
+margin:15px;
+font-size:18px;
+}
+
+footer{
+padding:30px;
+text-align:center;
+background:#020617;
+margin-top:50px;
+}
+
+@media(max-width:900px){
+
+.hero{
+text-align:center;
+justify-content:center;
+}
+
+.hero-image{
+margin-top:40px;
+}
+
+.hero h1{
+font-size:45px;
+}
+
+.hero-image img{
+width:280px;
+}
+
+nav{
+display:none;
+}
+
+}
+</style>
+
+</head>
+<body>
+
+<header>
+
+<div class="logo">Kalema Nathan</div>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#services">Services</a>
+<a href="#portfolio">Portfolio</a>
+<a href="#resume">Resume</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero" id="home">
+
+<div class="hero-text">
+
+<h3>Hello, I'm</h3>
+
+<h1>Kalema <span>Nathan</span></h1>
+
+<h3>I am <span id="typing"></span></h3>
+
+<p>
+Passionate technology enthusiast specializing in web development,
+graphic design, digital branding, and innovative software solutions.
+I enjoy creating clean, responsive, and user-friendly digital experiences.
+</p>
+
+<a href="#contact" class="btn">Hire Me</a>
+
+</div>
+
+<div class="hero-image">
+
+<img src="https://via.placeholder.com/400" alt="Kalema Nathan">
+
+</div>
+
+</section>
+
+<section id="about">
+
+<h2 class="title">About Me</h2>
+
+<div class="about">
+
+<p>
+My name is Kalema Nathan. I am a creative developer with experience
+building modern websites, designing digital content, and solving
+real-world problems using technology. I focus on producing quality work
+that combines beautiful design with excellent functionality.
+</p>
+
+</div>
+
+</section>
+
+<section id="skills">
+
+<h2 class="title">Skills</h2>
+
+<div class="skills-grid">
+
+<div class="card">
+<h3>HTML & CSS</h3>
+<p>Responsive website development.</p>
+</div>
+
+<div class="card">
+<h3>JavaScript</h3>
+<p>Interactive web applications.</p>
+</div>
+
+<div class="card">
+<h3>Graphic Design</h3>
+<p>Photoshop, Canva, Branding.</p>
+</div>
+
+<div class="card">
+<h3>UI/UX Design</h3>
+<p>Modern and user-friendly interfaces.</p>
+</div>
+
+<div class="card">
+<h3>Digital Marketing</h3>
+<p>Social media branding and content creation.</p>
+</div>
+
+<div class="card">
+<h3>Problem Solving</h3>
+<p>Creative and analytical thinking.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="services">
+
+<h2 class="title">Services</h2>
+
+<div class="service-grid">
+
+<div class="card">
+<h3>Website Development</h3>
+<p>Responsive websites for businesses and individuals.</p>
+</div>
+
+<div class="card">
+<h3>Graphic Design</h3>
+<p>Logos, posters, flyers, and social media graphics.</p>
+</div>
+
+<div class="card">
+<h3>Brand Identity</h3>
+<p>Professional branding solutions.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="portfolio">
+
+<h2 class="title">Portfolio</h2>
+
+<div class="project-grid">
+
+<div class="card">
+<h3>Business Website</h3>
+<p>Modern responsive company website.</p>
+</div>
+
+<div class="card">
+<h3>Portfolio Website</h3>
+<p>Personal branding website.</p>
+</div>
+
+<div class="card">
+<h3>Graphic Design Collection</h3>
+<p>Flyers, posters and promotional artwork.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="resume">
+
+<h2 class="title">Experience</h2>
+
+<div class="timeline">
+
+<div class="card">
+<h3>Frontend Developer</h3>
+<p>Building responsive websites using HTML, CSS & JavaScript.</p>
+</div>
+
+<div class="card">
+<h3>Graphic Designer</h3>
+<p>Designing promotional materials and branding assets.</p>
+</div>
+
+<div class="card">
+<h3>Freelancer</h3>
+<p>Helping businesses establish their online presence.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="title">Contact Me</h2>
+
+<div class="contact">
+
+<p>📧 kalemanathan@example.com</p>
+
+<p>📱 +256 XXX XXX XXX</p>
+
+<p>📍 Kampala, Uganda</p>
+
+<a href="mailto:kalemanathan@example.com" class="btn">Send Email</a>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Kalema Nathan. All Rights Reserved.
+
+</footer>
+
+<script>
+
+const words=[
+"Web Developer",
+"Graphic Designer",
+"UI/UX Designer",
+"Freelancer",
+"Creative Thinker"
+];
+
+let i=0;
+let j=0;
+let current="";
+let isDeleting=false;
+
+function type(){
+
+current=words[i];
+
+if(!isDeleting){
+
+document.getElementById("typing").textContent=current.substring(0,j++);
+if(j>current.length){
+isDeleting=true;
+setTimeout(type,1000);
+return;
+}
+
+}else{
+
+document.getElementById("typing").textContent=current.substring(0,j--);
+
+if(j<0){
+isDeleting=false;
+i++;
+if(i==words.length)i=0;
+}
+
+}
+
+setTimeout(type,isDeleting?50:120);
+
+}
+
+type();
+
+</script>
+
+</body>
+</html>
